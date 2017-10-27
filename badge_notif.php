@@ -1,0 +1,1 @@
+<span class="badge" style="background-color: #e60000; margin-left: 8px;"><?php echo $_SESSION['notif_num'];?></span>
