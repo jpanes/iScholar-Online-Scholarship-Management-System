@@ -1,0 +1,32 @@
+.error{
+	width: 100%;
+	margin: 0px auto;
+	padding: 5px;
+	border: 1px solid #ff8d77;
+	color: #a94442;
+	background: #ffcfc6;
+	border-radius: 5px;
+	text-align: center;
+}
+.success{
+    width: 100%;
+	margin: 0px auto;
+	padding: 5px;
+	border: 1px solid #6df271;
+	color: #028c20;
+	background: #c9ffcb;
+	border-radius: 5px;
+	text-align: center;	
+}
+.warning{
+ 	width: 100%;
+	margin: 0px auto;
+	padding: 5px;
+	border: 1px solid #ff9616;
+	color: #b78800;
+	background: #ffe391;
+	border-radius: 5px;
+	text-align: center;	
+}
+
+   
