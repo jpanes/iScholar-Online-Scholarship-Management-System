@@ -1,0 +1,26 @@
+.button{
+    color: #cdf5f7;
+}
+footer{
+    background-color: #369;
+    background: #369;
+    height: 30px;
+    color:#cdf5f7;
+}
+
+header{
+    
+    color: white;
+    background-color:  #369;
+    align-content: left;
+    padding-bottom: 5px;
+}
+
+form{
+	padding-top: 5px;
+}
+
+#form1{
+	padding-top: 100px;
+
+}

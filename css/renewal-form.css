@@ -1,0 +1,70 @@
+.content{
+	padding: 2em 0;
+    width: 40%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: black;
+}
+
+.w3l-left-grid {
+	width: 42%;
+    float: left;
+    margin: 0 0 0 2em;
+    text-align: left;
+}
+.w3l-left-grid.center.banner {
+	display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+label, input, button, select, textarea {
+	font-size: .8em;
+    color: black;
+    margin: .5em 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+label {
+    display: block;
+	text-transform: uppercase;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid black;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	display: inline-block;
+    height: 18px;
+    padding: 4px;
+    margin: 1em 0;
+    font-size: .9em;
+    line-height: 18px;
+    width: 80%;
+    color: #000;	
+}
+.w3ls-submit{
+	padding: 0 2em;
+	text-align:right;
+}
+.w3ls-submit input[type="submit"] {
+	font-size: .9em;
+    color: #fff;
+    background: #F44336;
+    border: 1px solid #F44336;
+    outline: none;
+    cursor: pointer;
+    padding: .6em 1em;
+    -webkit-appearance: none;
+}
+.w3ls-submit input[type="submit"]:hover {
+    background: transparent;
+    color: #F44336;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}

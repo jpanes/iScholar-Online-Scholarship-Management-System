@@ -1,0 +1,19 @@
+@media print {
+    aside#sidebar,header[role="banner"],footer,#comments,#respond {
+        display: none;
+    }
+    #container #content #main {
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+    }
+    * {
+        color: #000;
+        background-color: #fff;
+        @include box-shadow(none);
+        @include text-shadow(none);
+    }
+    a:after {
+        content: "( "attr(href)" )";
+    }
+}
